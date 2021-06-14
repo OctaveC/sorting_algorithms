@@ -52,7 +52,7 @@ void counting_sort(int *array, size_t size)
 }
 
 /**
- * how_many - Counts how many occurences of a value are present in a given array
+ * how_many - Counts how many occurences of a value are present in given array
  *
  * @array: the array we want to count the values of
  * @size: Size of the array
