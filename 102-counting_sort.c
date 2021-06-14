@@ -15,7 +15,6 @@ void counting_sort(int *array, size_t size)
 
 	if (size <= 1)
 		return;
-
 	while (ite < size)
 	{
 		if (array[ite] > (int)max)
@@ -52,7 +51,7 @@ void counting_sort(int *array, size_t size)
 }
 
 /**
- * how_many - Counts how many occurences of a value are present in given array
+ * how_many - Counts how many occurences of a value are present ingiven array
  *
  * @array: the array we want to count the values of
  * @size: Size of the array
