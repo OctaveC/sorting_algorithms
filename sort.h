@@ -78,6 +78,8 @@ void cocktail_sort_list(listint_t **list);
 void counting_sort(int *array, size_t size);
 int how_many(int *array, size_t size, int val);
 void merge_sort(int *array, size_t size);
+void top_down_split_and_merge(int *array, int *tmp, int start, int end);
+void merge(int *tmp, int *array, int start, int middle, int end);
 void heap_sort(int *array, size_t size);
 void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
