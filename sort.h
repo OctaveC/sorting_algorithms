@@ -71,6 +71,8 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void quickSort_lomuto(int *array, size_t size, int low, int high);
 int separate(int *array, size_t size, int low, int high);
+int partition_hoare(int *array, size_t size, int low, int high);
+void quicksort_hoare(int *array, size_t size, int low, int high);
 
 /* Optionals exos prototypes */
 void shell_sort(int *array, size_t size);
